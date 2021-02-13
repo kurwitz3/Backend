@@ -1,4 +1,7 @@
-# README
+
+# JS Project
+*back end code 
+*[Front end here](https://github.com/kurwitz3/Javascipt-Project-Frontend)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
