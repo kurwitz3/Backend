@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_13_225310) do
+ActiveRecord::Schema.define(version: 2021_02_18_184348) do
 
   create_table "beers", force: :cascade do |t|
     t.string "beer_name"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_225310) do
     t.float "alcohol_percentage"
     t.string "link"
     t.string "image"
-    t.integer "likes"
+    t.integer "likes", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -27,11 +27,11 @@ ActiveRecord::Schema.define(version: 2021_02_13_225310) do
   create_table "comments", force: :cascade do |t|
     t.string "name"
     t.string "content"
-    t.integer "beers_id", null: false
+    t.integer "beer_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["beers_id"], name: "index_comments_on_beers_id"
+    t.index ["beer_id"], name: "index_comments_on_beer_id"
   end
 
-  add_foreign_key "comments", "beers", column: "beers_id"
+  add_foreign_key "comments", "beers"
 end

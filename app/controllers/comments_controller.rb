@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
     def index
       @comments = Comment.all
   
-      render json: @comments
+      render json: @comments.to_json(except:[:created_at, :updated_at],)
     end
   
     # GET /comments/1
@@ -15,12 +15,12 @@ class CommentsController < ApplicationController
   
     # POST /comments
     def create
-      @comment = Comment.new(comment_params)
+      comment = Comment.new(comment_params)
   
-      if @comment.save
-        render json: @comment, status: :created, location: @comment
+      if comment.save
+        render json: comment
       else
-        render json: @comment.errors, status: :unprocessable_entity
+        render json: comment.errors, status: :unprocessable_entity
       end
     end
   
