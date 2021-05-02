@@ -10,11 +10,20 @@ write comments about their favorite one, and even add their own to the app!
 
 ## Installation 
 
-First run bundle install 
+Run bundle install to install all the gems.
 
 ```bash
 bundle install
 ```
+
+## Usage 
+
+To start the the server run 
+
+```bash 
+rails s
+```
+Then go to the browser and enter the url localhost:3000. You will also need to open the index.html in the frontend.
 
 Contributing Bug reports and pull requests are welcome on GitHub at https://github.com/'reliable-karma-5354'/I-Love-Ipa-Backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
