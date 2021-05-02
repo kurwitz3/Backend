@@ -24,7 +24,7 @@ To start the the server run
 rails s
 ```
 Then go to the browser and enter the url localhost:3000. You will also need to open the index.html in the frontend.
-
+Instructions are located in the frontend README.md.
 ## Contributing
 
 Contributing Bug reports and pull requests are welcome. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
