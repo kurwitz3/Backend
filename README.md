@@ -3,7 +3,10 @@
 *back end code 
 *[Front end here](https://github.com/kurwitz3/Js-Project-Frontend)
 
-Welcome to I Love Ipa this app is an where craft beer lover can see diffent Ipa's from around the country write comments about their favorite one and even add their own to the app!
+## Description
+
+Welcome to I Love IPA. This app let's users see different Ipa's from around the country,
+write comments about their favorite one, and even add their own to the app!
 
 $ Fork and clone the repository. First type bundle install in to the command line. Once you have all the gems installed run rails s in your terminal.Cd into the frontend and run open index.html. Go to localhost:3000 and the app should be loaded! Link to the backend is located above.
 
