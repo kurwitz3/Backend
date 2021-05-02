@@ -33,6 +33,8 @@ Contributing Bug reports and pull requests are welcome. This project is intended
 
  MIT 
 
+ ## Code Of Conduct
+
 Code of Conduct Everyone interacting in the I-Love-Ipa project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
 
 
