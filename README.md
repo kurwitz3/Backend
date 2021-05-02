@@ -1,6 +1,6 @@
 
 # I Love Ipa 
-*back end code 
+*Back end code 
 *[Front end here](https://github.com/kurwitz3/Js-Project-Frontend)
 
 ## Description
