@@ -8,7 +8,13 @@
 Welcome to I Love IPA. This app let's users see different Ipa's from around the country,
 write comments about their favorite one, and even add their own to the app!
 
-$ Fork and clone the repository. First type bundle install in to the command line. Once you have all the gems installed run rails s in your terminal.Cd into the frontend and run open index.html. Go to localhost:3000 and the app should be loaded! Link to the backend is located above.
+## Installation 
+
+First run bundle install 
+
+```bash
+bundle install
+```
 
 Contributing Bug reports and pull requests are welcome on GitHub at https://github.com/'reliable-karma-5354'/I-Love-Ipa-Backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
